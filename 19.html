@@ -1,0 +1,46 @@
+<div class=container>
+    <div class=left_side></div>
+    <div class=right_side></div>
+    <div class=center></div>
+</div>
+<style>
+    body {
+        background: #0B2429;
+    }
+
+    .container {
+        position: relative;
+        width: 141px;
+        height: 210px;
+        margin: 45px auto;
+    }
+
+    .left_side,
+    .right_side {
+        position: absolute;
+        top: 34px;
+        width: 70px;
+        height: 70px;
+    }
+
+    .left_side {
+        background: #998235;
+        transform: skew(0deg, -45deg);
+    }
+
+    .right_side {
+        right: 1px;
+        background: #1A4341;
+        transform: skew(0deg, 45deg);
+    }
+
+    .center {
+        position: absolute;
+        bottom: 20px;
+        left: 20px;
+        width: 100px;
+        height: 100px;
+        background: #F3AC3C;
+        transform: rotate(45deg);
+    }
+</style>
